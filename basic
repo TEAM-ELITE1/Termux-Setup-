@@ -1,0 +1,22 @@
+#!/data/data/com.termux/files/usr/bin/python
+import os
+from os import system as o
+p=print
+o("apt update && apt upgrade -y")
+o("pkg install python")
+o("pkg install python2")
+o("pkg install python3")
+o("pkg update && pkg upgrade")
+o("pip install bs4")
+o("pip install requests")
+o("pip install rich")
+o("pip install mechanize")
+o("pip install gtts")
+o("pkg install php")
+o("pkg install espeak")
+o("pkg install play-audio")
+o("pkg install curl")
+o("termux-setup-storage -y")
+o("clear")
+p("setup doen")
+o("cd")
